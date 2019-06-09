@@ -52,4 +52,16 @@ public class SimulationResult {
 		return player2Stats;
 	}
 	
+	public void setPlayer1Stats(GameStatistics player1Stats) {
+		this.player1Stats = player1Stats;
+	}
+
+	public void setPlayer2Stats(GameStatistics player1Stats) {
+		this.player2Stats = player2Stats;
+	}
+	
+	public void setGameConfig(GameConfig config) {
+		this.config = config;
+	}
+
 }

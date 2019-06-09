@@ -197,7 +197,7 @@ public class PlayerConfigView extends VBox {
 		hideCardsCheckBox.selectedProperty().addListener(this::onHideCardBoxChanged);
 		hideCardsCheckBox.setSelected(selectionHint == PlayerConfigType.OPPONENT);
 		if (configType == PlayerConfigType.SIMULATION || configType == PlayerConfigType.SANDBOX) {
-			hideCardsCheckBox.setVisible(false);
+			hideCardsCheckBox.setVisible(true);
 		}
 	}
 

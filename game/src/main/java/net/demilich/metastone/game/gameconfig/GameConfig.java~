@@ -1,7 +1,6 @@
 package net.demilich.metastone.game.gameconfig;
 
 import net.demilich.metastone.game.decks.DeckFormat;
-import java.lang.CloneNotSupportedException;
 
 public class GameConfig implements Cloneable  {
 

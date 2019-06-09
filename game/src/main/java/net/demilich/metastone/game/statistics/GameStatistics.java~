@@ -96,6 +96,10 @@ public class GameStatistics implements Cloneable {
 	public Object get(Statistic key) {
 		return stats.get(key);
 	}
+	
+	public String getValue(Statistic key) {
+		return 
+	}
 
 	public Map<String, Map<Integer, Integer>> getCardsPlayed() {
 		return cardsPlayed;
